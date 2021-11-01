@@ -1,4 +1,5 @@
 {
+  "homepage": "https://vcoron.github.io/react_Ultar/",
   "name": "ultr",
   "version": "0.1.0",
   "private": true,
@@ -13,7 +14,9 @@
     "react-scripts": "4.0.3",
     "web-vitals": "^1.1.2"
   },
-  "scripts": {
+  "scripts": { 
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
